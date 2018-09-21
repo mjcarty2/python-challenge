@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import csv
 import os
 
@@ -33,3 +34,6 @@ election_results_file.write(f'Total Votes: {total_votes}\n')
 for x in range(0, len(candidate)):
         election_results_file.writerow([candidate[x], str(round((100*votes_count[x]/total_votes),2)), str(votes_count[x])])
 election_results_file.write(f'Winner: {winner}')
+=======
+
+>>>>>>> 83f9b72a436c2c2a6af1cd26935dd484e5c5a472

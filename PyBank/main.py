@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import csv
 import os
 
@@ -39,3 +40,6 @@ budget_data.write(f'Net Profit/Loss: {total_revenue} \n')
 budget_data.write(f'Average Profit/Loss Change: {total_monthly_rev_change / len(monthly_changes)} \n')
 budget_data.write(f'Greatest Profit:  {list_months[monthly_changes.index(max(monthly_changes)) + 1]} {max(monthly_changes)} \n')
 budget_data.write(f'Greatest Loss: {list_months[monthly_changes.index(min(monthly_changes)) + 1]}  {min(monthly_changes)}')
+=======
+
+>>>>>>> 83f9b72a436c2c2a6af1cd26935dd484e5c5a472
